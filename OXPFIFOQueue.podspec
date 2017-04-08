@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "OXPFIFOQueue"
   s.version      = "0.0.1"
-  s.summary      = "A short description of OXPFIFOQueue."
+  s.summary      = "make block exectue in FIFO queue"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "block exectue in FIFO queue, FIFO queue implement by NSOperationQueue"
 
-  s.homepage     = "http://EXAMPLE/OXPFIFOQueue"
+  s.homepage     = "https://github.com/oxape/OXPFIFOQueue"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = { :type => "Apache 2.0", :file => "LICENSE" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "oxape" => "wxdeve@126.com" }
+  s.author             = { "oxape" => "doxpae@gmail.com" }
   # Or just: s.author    = "oxape"
   # s.authors            = { "oxape" => "wxdeve@126.com" }
   # s.social_media_url   = "http://twitter.com/oxape"
